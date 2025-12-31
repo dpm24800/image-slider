@@ -1,0 +1,16 @@
+project-root/
+│
+├── index.html
+├── styles.css
+│
+├── data/
+│   ├── images.json
+│   └── images.csv
+│
+├── js/
+│   ├── script.js        # main gallery logic
+│   ├── json-reader.js   # optional JSON loader helper
+│   └── csv-reader.js    # optional CSV loader helper
+│
+└── assets/
+    └── (optional: local images, icons, etc.)

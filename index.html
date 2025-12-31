@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Image Viewer</title>
+  <!-- csv needs papaparse.min.js -->
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script> 
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="app">
+
+  <!-- LEFT -->
+  <div class="viewer" id="viewer">
+    <div class="image-wrapper">
+      <img id="mainImage" />
+    </div>
+
+    <div class="controls">
+      <button id="upBtn">▲</button>
+      <button id="downBtn">▼</button>
+    </div>
+
+    <!-- Progress dots -->
+    <div class="progress" id="progress"></div>
+  </div>
+
+  <!-- RIGHT -->
+  <div class="info-panel">
+    <h2>Image Details</h2>
+    <p id="imageSource"></p>
+    <p id="imageKeywords"></p>
+  </div>
+
+</div>
+
+<script src="js/script.js"></script>
+<!-- <script src="js/csv-reader.js"></script> -->
+<!-- <script src="js/json-reader.js"></script> -->
+</body>
+</html>
