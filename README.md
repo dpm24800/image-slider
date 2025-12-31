@@ -88,6 +88,13 @@ Include in `index.html` if using CSV:
 
 ---
 
+## Live Demo
+
+You can view a live demo of this image slider [here](https://dpm24800.github.io/image-slider/).
+
+![screenshot](data/screenshot.png)
+
+---
 ## Contributing
 
 Feel free to submit pull requests or open issues to improve this project.
